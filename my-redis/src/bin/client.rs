@@ -1,3 +1,4 @@
+use crate::client::Client;
 use bytes::Bytes;
 use mini_redis::client;
 use tokio::sync::mpsc;
